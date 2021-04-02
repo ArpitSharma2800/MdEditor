@@ -1,9 +1,7 @@
 import React, { useState } from 'react'
 import MDEditor from "@uiw/react-md-editor";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
-const mkdStr = `# Markdown Editor for React
-
-**Hello world!!!**
+const mkdStr = `# MD EDITOR BY A.S
 
 \`\`\`javascript
 import React from "react";

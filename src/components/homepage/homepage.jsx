@@ -61,14 +61,10 @@ export default function TabView() {
                     centered
                 >
                     <Tab label="Edit" {...a11yProps(0)} />
-                    <Tab label="Preview" {...a11yProps(1)} />
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
                 Item One
-      </TabPanel>
-            <TabPanel value={value} index={1}>
-                Item Two
       </TabPanel>
         </div>
     );
