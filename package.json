@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-cli serve --mode development --hot --host 0.0.0.0",
+    "start": "webpack-cli serve --mode development --hot --open",
     "build": "webpack --mode production"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/styles": "^4.11.3",
+    "@uiw/react-md-editor": "^3.0.0-beta.4",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
